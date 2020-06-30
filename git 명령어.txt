@@ -1,0 +1,27 @@
+Git 명령어 (push <=> pull)
+
+git pull origin master
+
+git status : git 상태 확인
+
+git add -A : 내 디렉토리 안 모든 파일을 타임캡슐에 넣는다
+
+ git commit -m "주석" : 설명을 달아놓고 타임캡슐 묻기
+
+git push origin +master : 실제로 git에 push
+
+터미널 실행중일 때 빠져나오기 = ; + q
+
+git reset 일련번호6자리 --hard : 해당 로그기록 상태로 완전 되돌리기
+
+git branch 이름 : '이름' 브랜치(평행우주, 복사본) 만들기
+
+git checkout 이름 : '이름' 브랜치로 이동 
+
+git merge 이름 : '이름' 브랜치를 현재 브랜치에 병합한다
+
+저장하고 나가기 = ; + w + q
+
+git branch -D 이름 : '이름' 브랜치 삭제
+
+git 
